@@ -1,5 +1,3 @@
-testando README
-
 # AtividadeProjetoExtruturado11Versionamento
 
 ## O que é Git?

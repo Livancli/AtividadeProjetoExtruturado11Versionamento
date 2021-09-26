@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APE 11 - Questões</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar is-Success" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/index.html">
+                    <img src="/imagens/LOGOUNIPAREAD.png" width="120"
+                        height="20">
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu is-active">
+                <div class="navbar-start">
+                    <a class="navbar-item"
+                        href="/index.html">
+                        <strong>Início</strong>
+                    </a>
+
+                    <a class="navbar-item"
+                        href="/questoes.html">
+                        <strong>Questões</strong>
+                    </a>
+
+                    
+                    <a class="navbar-item"
+                        href="/git.html">
+                        <strong>Git</strong>
+                    </a>
+                    
+                    <a class="navbar-item"
+                        href="/gitFlow.html">
+                        <strong>Git Flow</strong>
+                    </a>
+                </div>
+            </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+
+                </div>
+                <div class="column is-12">
+
+                        <br>
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    QUESTÕES
+                            
+                                </p>
+                            </header>
+                            <div class="card-content">
+                                <div class="content">
+                                    <p class="title is-6">PARA QUE SERVE O COMMIT E QUAL A MELHOR FORMA DE UTILIZÁ-LO?</p>
+                                    <p>Em sistemas de controle de versão como o Git, um commit adisiona as alterções mais recentes do código-fonte para o repositório, tomando essas alterções parte da revisão principal do repositório, o commit vem após o uso da funçõa "add", que adiiona os arquivos selecionados na função em uma área de espera, a versão do arquivo fica temporariamente salva, mas não de forma definitiva, sendo que se você utilizar a função "add" mais uma vez para o mesmo arquivo, ele é sobreescrito. Para "commitar" no git, basta executar o comando: git commit -m "mensagem", depois que o commit foi aplicado, a úlitma etapa é enviar o commit para o repositório: git push origin 'nome da sua branch'.</p>
+                                </div>
+                                <hr>
+                                <div class="content">
+                                    <p class="title is-6">QUAL A DIFERENÇA ENTRE COMMIT E PUSH?</p>
+                                    <p>O commit realiza a gravação dos arquivos no repositório local, e o push faz a gravação no repositório remoto, com o push é possível a verificação em qualquer estação e no commit a alteração não estará disponível em outros lugares, o commit é usado em conexão com seu repositório local e o outro é usado para interagir com um repositório remoto.</p>
+                                </div>
+                                <hr>
+                                <div class="content">
+                                    <p class="title is-6">O QUE É TAG?</p>
+                                    <p>As tags no git funcionam como marcadores para commits específicos, são como branches, exceto que tags são deletadas, a tag permite que você adicione informções sobre um commit, ou divida todos os seus commits, em grandes grupos, tem dois tipos de tags: annotated e non-annotated. Ao usá-las, existe uma pequena diferença entre elas. Ambas permitem que você faça referência a um commit específico em um repositório. Uma annotated tag cria uma objeto tag adicional no repositório do Git, o que permite que você armazene informações associadas com a tag. Isso pode incluir notas de liberação, a meta-informação sobre o lançamento e, opcionalmente, uma assinatura para verificar a autenticidade do commit para o qual ele aponta. </p>
+                                </div>
+                                <hr>
+                                <div class="content">
+                                    <p class="title is-6">O QUE É BRANCH?</p>
+                                    <p>Uma ramificação no git é um ponteiro para as alterações feitas nos arquivos do projeto, os repositórios no GitHub funcionam como uma árvore, isso porque o branch permite quye com a mesma pasta de arquivos, você possa ter várias áreas de trabalho, ou ambientes diferentes, é útil em situações nas quais você deseja adicionar um novo recurso ou corrigir um erro, gerando uma nova ramificação garantindo que o código instável não seja mesclado nos arquivos do projeto principal. Depois de concluir a atualização dos códigos da ramificação, você pode mesclar a ramificação com a principal, geralmente chamada de master.</p>
+                                </div>
+                                <hr>
+                                <div class="content">
+                                    <p class="title is-6">COMO RESOLVER POSSÍVEIS CONFLITOS NO GIT?</p>
+                                    <p>Como qualquer linguagem ou tecnologia, estamos sujeitos a nos depara com conflitos, conflitos podem acontecer tanto ao mesclar branches, bem como quanto ao mesclar commits dentro da mesma branch, são bastantes comuns e acontecem sempre quando o mesmo arquivo foi modificado por duas versões diferentes e essas versões não podem ser automaticamente mescladas, é preciso localizar todos os arquivos onte ocorreram conflitos para a resolução do conflito.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+    </section>
+</body>
+
+</html>

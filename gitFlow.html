@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APE 11 - Git Flow</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar is-Success" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/index.html">
+                    <img src="/imagens/LOGOUNIPAREAD.png" width="120"
+                        height="20">
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu is-active">
+                <div class="navbar-start">
+                    <a class="navbar-item"
+                        href="/index.html">
+                        <strong>Início</strong>
+                    </a>
+
+                    <a class="navbar-item"
+                        href="/questoes.html">
+                        <strong>Questões</strong>
+                    </a>
+
+                    
+                    <a class="navbar-item"
+                        href="/git.html">
+                        <strong>Git</strong>
+                    </a>
+                    
+                    <a class="navbar-item"
+                        href="/gitFlow.html">
+                        <strong>Git Flow</strong>
+                    </a>
+                </div>
+            </div>
+            </div>
+            </div>
+        </nav>
+
+      </header>
+      <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+
+                </div>
+                <div class="column is-12">
+
+                        <br>
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    PRINCIPAIS COMANDOS - GIT COM FLOW
+                            
+                                </p>
+                          </header>
+                          <div class="card-content">
+                              <div class="content">
+                                  <div class="columns">
+                                       <div class="column is-12">
+                                            <p class="title is-6">* <span class="tag is-dark">git flow feature start MYFEATURE</span> Esse comando cria um novo branch da funcionalidade baseado no 'develop' e alterna para ele.</p><br>
+
+                                            <p class="title is-6">* <span class="tag is-dark">git flow feature finish MYFEATURE</span> Esse comando faz o seguinte ,Mescla MYFEATURE no 'develop' , emove o branch da funcionalidade, Volta para o branch 'develop'.</p><br>
+
+                                            <p class="title is-6">* <span class="tag is-dark">git flow feature publish MYFEATURE</span> Você está desenvolvendo uma funcionalidade colaborativamente? Publique uma funcionalidade para o servidor remoto, assim ela pode ser utilizada por outros usuários.</p><br>
+
+                                            <p class="title is-6">* <span class="tag is-dark">git flow feature pull MYFEATURE</span> Obtenha uma funcionalidade publicada por outro usuário e acompanhe as alterações remotas.
+                                            </p><br>
+
+                                            <p class="title is-6">* <span class="tag is-dark">git flow release</span> Ele cria um branch da versão baseado no branch 'develop'.</p><br>
+                                            
+                                            <p class="title is-6">* <span class="tag is-dark">git flow release start RELEASE [BASE]</span> Você pode opcionalmente fornecer um hash sha-1 do commit [BASE] de onde começar a versão. O commit precisa estar no branch 'develop'.</p><br>
+
+                                            <p class="title is-6">* <span class="tag is-dark">git flow release publish RELEASE</span> Publica o branch da versão depois de criá-lo, para permitir commits por outros desenvolvedores.</p><br>
+
+                                            <p class="title is-6">* <span class="tag is-dark">git flow release finish RELEASE</span> Mescla o branch da versão no 'master', Etiqueta a versão com seu nome, Mescla o branch da versão de volta no 'develop', Remove o branch da versão.</p><br>
+
+                                            <p class="title is-6">* <span class="tag is-dark">git flow release track RELEASE</span> Acompanhar uma versão remota com o comando.</p><br>
+
+                                            <p class="title is-6">* <span class="tag is-dark">git flow hotfix start RELEASE</span> Inicia um git hotfix como os outros comandos do git flow.</p><br>
+
+                                            <p class="title is-6">* <span class="tag is-dark">git flow hotfix finish RELEASE</span> Finaliza um hotfix ele é mesclado tanto no develop quanto no master. Além disso, o merge no master é etiquetado.</p><br>
+                                      </div>
+                                  </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+      </section>
+  </body>
+  
+  </html>
